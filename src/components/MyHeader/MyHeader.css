@@ -1,0 +1,43 @@
+
+.nav-container{
+    background-color: var(--secondary);
+    width: 100%;
+    /* box-shadow: 0 1px 5px  rgba(0, 0, 0, 0.212); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* position: sticky;
+    top: 0; */
+    padding: 3rem;
+}
+
+
+
+.left{
+    padding-left: 1rem;
+}
+.logo{
+    width: 7rem;
+    cursor: pointer;
+}
+.right{
+}
+
+.right-btn{
+    cursor: pointer;
+    color: var(--primary);
+    padding: 0.8rem;
+    border: 1.5px solid var(--primary);
+    border-radius: 40px;
+    background-color: var(--secondary);
+    transition: all 0.3s ease-out;
+}
+.right-btn:hover{
+    color: var(--secondary);
+    background-color: var(--primary);
+}
+
+
+.rotate{
+    
+}
